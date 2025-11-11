@@ -1,0 +1,23 @@
+q_sgd_momentum/
+├── configs/
+│   └── default.yaml
+├── src/
+│   ├── __init__.py
+│   ├── data/
+│   │   └── synthetic.py
+│   ├── models/
+│   │   └── logistic.py
+│   ├── optim/
+│   │   └── sgd.py
+│   ├── trainers/
+│   │   └── base.py
+│   └── utils/
+│       ├── logger.py
+│       └── seed.py
+├── notebooks/
+│   └── demo.ipynb
+├── tests/
+│   └── test_sgd.py
+├── pyproject.toml
+├── requirements.txt
+└── README.md
